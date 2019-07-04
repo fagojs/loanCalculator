@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+  background-color: brown;
+}
+input {
+  background-color: floralwhite;
+}
+.amount-rs {
+  margin-bottom: 5px;
+}
+.interest-perc {
+  margin-bottom: 5px;
+}
+.years-num {
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+.amount,
+.interest,
+.years {
+  font-size: 20px;
+}
+button {
+  margin-top: 5px;
+  margin-left: 70px;
+  background-color: burlywood;
+  font-size: 15px;
+}
+.monthly-payment {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.total-payment {
+  margin-top: 5px;
+  font-size: 20px;
+  margin-left: 25px;
+}
+.total-interest {
+  margin-top: 5px;
+  font-size: 20px;
+  margin-left: 36px;
+}

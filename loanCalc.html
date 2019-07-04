@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Loan Calculator</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="loanCalc.css" type="text/css" />
+    <style>
+      .results {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!--     input      -->
+    <div class="container">
+      <h1 class="heading">LOAN CALCULATOR</h1>
+      <form>
+        <div class="container-input">
+          <div class="amount-rs">
+            <span class="amount">Rupees</span>
+            <input type="number" placeholder="Amount" id="amount" />
+          </div>
+          <div class="interest-perc">
+            <span class="interest">Interest</span>
+            <input type="number" placeholder="%" id="interest" />
+          </div>
+          <div class="years-num">
+            <span class="years">Years</span>
+            <input
+              type="number"
+              placeholder="Total Years To Repay"
+              id="years"
+            />
+          </div>
+        </div>
+
+        <div class="btn-calc">
+          <button id="click-button">Calculate</button>
+        </div>
+      </form>
+
+      <!--  output  -->
+
+      <div class="results">
+        <h4>RESULTS</h4>
+        <div class="container-output">
+          <div class="monthly-payment">
+            <span>Monthly Payment</span>
+            <input type="number" disabled id="monthly-payment" />
+          </div>
+          <div class="total-payment">
+            <span>Total Payment</span>
+            <input type="number" disabled id="total-payment" />
+          </div>
+          <div class="total-interest">
+            <span>Total Interest</span>
+            <input type="number" disabled id="total-interest" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="loanCalc.js"></script>
+  </body>
+</html>
